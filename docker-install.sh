@@ -11,6 +11,6 @@ sudo apt update -y ;
 # if there is a gpg error with apt update
 #sudo chmod a+r /etc/apt/keyrings/docker.gpg
 #sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-compose bind9 -y ;
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-compose -y ;
 clear ;
 sudo docker run hello-world ;
