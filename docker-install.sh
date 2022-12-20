@@ -1,5 +1,5 @@
 #Install script
-sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt-get remove docker docker.io containerd runc
 sudo apt update -y ;
 sudo apt install docker apt-transport-https ca-certificates curl software-properties-common -y ;
 sudo mkdir -p /etc/apt/keyrings ;
